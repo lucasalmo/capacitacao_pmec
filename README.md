@@ -1,8 +1,7 @@
-# Geral
-
 # Instalação
 
 - Instale o docker no seu computador
+
 [Confira no site como é feito de acordo com a sua distribuição Linux e realize a instalação](https://docs.docker.com/get-started/get-docker/)
 
 # Criando uma imagem para subir o container
