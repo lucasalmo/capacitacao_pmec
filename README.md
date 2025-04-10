@@ -1,10 +1,10 @@
-# Instalação
+## Instalação
 
 - Instale o docker no seu computador
 
 [Confira no site como é feito de acordo com a sua distribuição Linux e realize a instalação](https://docs.docker.com/get-started/get-docker/)
 
-# Criando uma imagem para subir o container
+## Criando uma imagem para subir o container
 
 Dentro do diretório capacitacao_pmec
 
@@ -14,7 +14,7 @@ docker build -t turtlebot3
 
 Lembrando que o nome turtlebot3 poderia ser qualquer nome aqui vou usar este para referenciar esta imagem
 
-# Rodando o script para entrar de fato no container
+## Rodando o script para entrar de fato no container
 
 -Verificando se o arquivo entrypoint.sh tem permissão de execução
 
@@ -22,7 +22,7 @@ Lembrando que o nome turtlebot3 poderia ser qualquer nome aqui vou usar este par
 ls -l
 ```
 
-Saída desejada
+###Saída desejada
 
 ```bash
 -rwxr-xr-x
@@ -43,6 +43,6 @@ chmod +x entrypoint.sh
 
 Feito isso vamos entrar no container já com as devidas configurações para usarmos o ROS com turtlesim
 
-# Testando 
+## Testando 
 
 [Para testarmos podemos seguir o manual do ROS2](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Recording-And-Playing-Back-Data/Recording-And-Playing-Back-Data.html)
