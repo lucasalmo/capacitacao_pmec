@@ -22,7 +22,7 @@ Lembrando que o nome turtlebot3 poderia ser qualquer nome aqui vou usar este par
 ls -l
 ```
 
-### Saída desejada
+##### Saída desejada
 
 ```bash
 -rwxr-xr-x
@@ -35,7 +35,7 @@ Caso contrário precisamos dar esta permissão ao script
 chmod +x entrypoint.sh
 ```
 
-- Com isso posdemos rodar o script passando a imagem que definimos anteriormente
+Com isso posdemos rodar o script passando a imagem que definimos anteriormente
 
 ```bash
 ./entrypoint.sh turtlebot3
