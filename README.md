@@ -14,6 +14,14 @@ Instale o docker no seu computador
 
 Dentro do diretório capacitacao_pmec
 
+Entre no diretório docker
+
+```bash
+cd docker
+```
+
+Criando a imagem
+
 ```bash
 docker build -t turtlebot3
 ```
@@ -22,7 +30,13 @@ Lembrando que o nome turtlebot3 poderia ser qualquer nome aqui vou usar este par
 
 ## Rodando o script para entrar de fato no container
 
--Verificando se o arquivo entrypoint.sh tem permissão de execução
+Para executar o script precisamos voltar um diretório acima e entrar no diretório scripts
+
+```bash
+cd ../scripts
+```
+
+Agora verificamos se o arquivo run_container.sh tem permissão de execução
 
 ```bash
 ls -l
@@ -38,7 +52,7 @@ Se no início da linha do arquivo entrypoint.sh estiver desta forma com um x ao 
 Caso contrário precisamos dar esta permissão ao script
 
 ```bash
-chmod +x entrypoint.sh
+chmod +x run_container.sh
 ```
 
 Com isso posdemos rodar o script passando a imagem que definimos anteriormente
