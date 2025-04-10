@@ -1,3 +1,9 @@
+## Observação 
+
+- Topico exclusivo para usuários Arch Linux
+
+O processo foi feito utilizando o sistema, eu tive um problema quanto aos comandos do docker precisando serem executados como super usuário. Mesmo conseguindo rodas os comandos sem sudo qundo o docker-desktop estava rodando o processo não funciona na hora de usar aplicações locais.
+
 ## Instalação
 
 - Instale o docker no seu computador
