@@ -6,7 +6,7 @@ O processo foi feito utilizando o sistema, eu tive um problema quanto aos comand
 
 ## Instalação
 
-- Instale o docker no seu computador
+Instale o docker no seu computador
 
 [Confira no site como é feito de acordo com a sua distribuição Linux e realize a instalação](https://docs.docker.com/get-started/get-docker/)
 
