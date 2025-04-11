@@ -23,7 +23,7 @@ cd docker
 Criando a imagem
 
 ```bash
-docker build -t turtlebot3
+docker build -f docker/Dockerfile -t turtlebot3 .
 ```
 
 Lembrando que o nome turtlebot3 poderia ser qualquer nome aqui vou usar este para referenciar esta imagem
