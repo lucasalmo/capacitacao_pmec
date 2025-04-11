@@ -52,7 +52,7 @@ chmod +x run_container.sh
 Com isso posdemos rodar o script passando a imagem que definimos anteriormente
 
 ```bash
-./entrypoint.sh turtlebot3
+./run_container.sh turtlebot3
 ```
 
 Feito isso vamos entrar no container já com as devidas configurações para usarmos o ROS com turtlesim
