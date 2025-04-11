@@ -20,6 +20,12 @@ Criando a imagem
 docker build -f docker/Dockerfile -t turtlebot3 .
 ```
 
+- Observação importante caso você esteja tendo problema com cache do docker o comando acima fica
+
+```bash
+docker build -f --no-cache -f docker/Dockerfile -t turtlebot3 .
+```
+
 Lembrando que o nome turtlebot3 poderia ser qualquer nome aqui vou usar este para referenciar esta imagem
 
 ## Rodando o script para entrar de fato no container
