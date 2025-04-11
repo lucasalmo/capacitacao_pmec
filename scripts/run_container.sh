@@ -20,10 +20,11 @@ XAUTH=/tmp/.docker.xauth
 touch $XAUTH
 xauth nlist $DISPLAY | sed -e 's/^..../ffff/' | xauth -f $XAUTH nmerge -
 
+
 # Rodar o container com as configurações necessárias
-docker run -it \
+docker run \
   --rm \
-  --name turtlebot3_container \
+  --name stf \
   --privileged \
   --user=root \
   --network=host \
@@ -32,4 +33,4 @@ docker run -it \
   --volume="/tmp/.X11-unix:/tmp/.X11-unix:ro" \
   --env="XAUTHORITY=$XAUTH" \
   --volume="$XAUTH:$XAUTH" \
-  $IMAGE_NAME
+  -it $IMAGE_NAME /bin/bash

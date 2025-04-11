@@ -29,9 +29,12 @@ RUN apt-get update && apt-get install -y \
   ros-humble-control-msgs \
   && rm -rf /var/lib/apt/lists/*
 
+# Copy the entrypoint and bashrc scripts so we have 
+# our container's environment set up correctly
 COPY scripts/run_container.sh /run_container.sh
-COPY bashrc /.bashrc
+COPY bashrc /home/${USERNAME}/.bashrc
 
 
+# Set up entrypoint and default command
 ENTRYPOINT ["/bin/bash", "/run_container.sh"]
 CMD ["bash"]
