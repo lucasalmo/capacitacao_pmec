@@ -27,7 +27,7 @@ Lembrando que o nome turtlebot3 poderia ser qualquer nome aqui vou usar este par
 Para executar o script precisamos voltar um diretório acima e entrar no diretório scripts
 
 ```bash
-cd ../scripts
+cd scripts
 ```
 
 Agora verificamos se o arquivo run_container.sh tem permissão de execução
