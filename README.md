@@ -14,12 +14,6 @@ Instale o docker no seu computador
 
 Dentro do diretório capacitacao_pmec
 
-Entre no diretório docker
-
-```bash
-cd docker
-```
-
 Criando a imagem
 
 ```bash
