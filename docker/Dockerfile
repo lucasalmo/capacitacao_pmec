@@ -32,7 +32,7 @@ RUN apt-get update && apt-get install -y \
 # Copy the entrypoint and bashrc scripts so we have 
 # our container's environment set up correctly
 COPY scripts/run_container.sh /run_container.sh
-COPY bashrc /home/${USERNAME}/.bashrc
+COPY bashrc /.bashrc
 
 
 # Set up entrypoint and default command
