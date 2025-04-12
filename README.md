@@ -20,6 +20,14 @@ Criando a imagem
 docker build -f docker/Dockerfile -t turtlebot3 .
 ```
 
+O comando acima diz que é para construir uma imagem o -f é para passar o local do arquivo Dockerfile o -t é para passar o nome da imagem a ser gerada
+
+- Tópico importante, caso você já tenha feito o build de alguma imagem pode acontecer do docker se referenciar a coisas que estão no cache. Enão para resolver o problema de cache utilize o comando abaxo
+
+```bash
+docker build --no-cache -f docker/Dockerfile -t turtlebot3
+```
+
 Lembrando que o nome turtlebot3 poderia ser qualquer nome aqui vou usar este para referenciar esta imagem
 
 ## Rodando o script para entrar de fato no container
