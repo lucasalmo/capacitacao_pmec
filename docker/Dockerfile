@@ -1,8 +1,7 @@
 FROM osrf/ros:humble-desktop-full
 
-RUN apt-get update && apt-get install -y \
-  vim \
-  qt5dxcb-plugin \ 
+RUN apt update && apt install -y \
+  nano \
   git \
   ros-humble-gazebo-ros-pkgs \
   ros-humble-cartographer \
@@ -29,12 +28,10 @@ RUN apt-get update && apt-get install -y \
   ros-humble-control-msgs \
   && rm -rf /var/lib/apt/lists/*
 
-# Copy the entrypoint and bashrc scripts so we have 
-# our container's environment set up correctly
-COPY scripts/run_container.sh /run_container.sh
-COPY bashrc /.bashrc
+#RUN /bin/bash -c "source /opt/ros/humble/setup.bash && colcon build --symlink-install"
 
+ENV TURTLEBOT3_MODEL=waffle
 
-# Set up entrypoint and default command
-ENTRYPOINT ["/bin/bash", "/run_container.sh"]
-CMD ["bash"]
+RUN echo "source /opt/ros/humble/setup.bash" >> /root/.bashrc && \
+  echo "source /root/turtlebot3_ws/install/setup.bash" >> /root/.bashrc && \
+  echo "source /usr/share/gazebo/setup.bash" >> /root/.bashrc
