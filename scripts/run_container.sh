@@ -43,4 +43,5 @@ docker run -it \
   --volume="$XAUTH:$XAUTH" \
   --volume="$HOST_WORK_PATH:$CONTAINER_WORK_PATH:rw" \
   --volume="$HOST_DATA_PATH:$CONTAINER_DATA_PATH:rw" \
+  --volume="$(pwd)/ros_packages:/root/turtlebot3_ws/src" \
   $IMAGE_NAME

@@ -1,8 +1,11 @@
 FROM osrf/ros:humble-desktop-full
 
+# Instala dependências
 RUN apt update && apt install -y \
-  nano \
+  vim \
   git \
+  qt5dxcb-plugin \
+  python3-colcon-common-extensions \
   ros-humble-gazebo-ros-pkgs \
   ros-humble-cartographer \
   ros-humble-cartographer-ros \
@@ -28,8 +31,22 @@ RUN apt update && apt install -y \
   ros-humble-control-msgs \
   && rm -rf /var/lib/apt/lists/*
 
-#RUN /bin/bash -c "source /opt/ros/humble/setup.bash && colcon build --symlink-install"
+# Cria workspace
+WORKDIR /root/turtlebot3_ws
 
+# Copia os pacotes ROS do host para o container
+COPY ../ros_packages ./src
+
+# Ignora pacotes duplicados
+RUN touch /opt/ros/humble/src/gtest_vendor/COLCON_IGNORE || true && \
+  touch /opt/ros/humble/src/gmock_vendor/COLCON_IGNORE || true && \
+  touch /opt/ros/humble/share/octomap/COLCON_IGNORE || true && \
+  touch /opt/ros/humble/share/urdfdom/COLCON_IGNORE || true
+
+# Compila o workspace
+RUN /bin/bash -c "source /opt/ros/humble/setup.bash && colcon build --symlink-install"
+
+# Ambiente
 ENV TURTLEBOT3_MODEL=waffle
 
 RUN echo "source /opt/ros/humble/setup.bash" >> /root/.bashrc && \
