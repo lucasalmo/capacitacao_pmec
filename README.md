@@ -82,5 +82,5 @@ Aqui eu estou utilizando o python3
 python3 frozen_lake.py
 ```
 
-	Esse é o resultado do jogo rodando
+Esse é o resultado do jogo rodando
 ![imagem rodando](/assets/rl.png)
