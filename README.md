@@ -1,3 +1,5 @@
+# Semana 1 - Git, Docker e Ros
+
 ## Observação 
 
 - Topico exclusivo para usuários Arch Linux
@@ -18,14 +20,6 @@ Criando a imagem
 
 ```bash
 docker build -f docker/Dockerfile -t turtlebot3 .
-```
-
-O comando acima diz que é para construir uma imagem o -f é para passar o local do arquivo Dockerfile o -t é para passar o nome da imagem a ser gerada
-
-- Tópico importante, caso você já tenha feito o build de alguma imagem pode acontecer do docker se referenciar a coisas que estão no cache. Enão para resolver o problema de cache utilize o comando abaxo
-
-```bash
-docker build --no-cache -f docker/Dockerfile -t turtlebot3
 ```
 
 Lembrando que o nome turtlebot3 poderia ser qualquer nome aqui vou usar este para referenciar esta imagem
@@ -67,4 +61,10 @@ Feito isso vamos entrar no container já com as devidas configurações para usa
 
 ## Testando 
 
-[Para testarmos podemos seguir o manual do ROS2](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Introducing-Turtlesim/Introducing-Turtlesim.html)
+[Para testarmos podemos seguir o manual do ROS2](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Recording-And-Playing-Back-Data/Recording-And-Playing-Back-Data.html)
+
+# Semana 2 - Navegação Autônoma e RL
+
+Durante o processo eu aprofundei os conhecimentos sobre ros2 
+
+[Brincando um pouco com Ros2 e SLAM](/assets/ros2_slam.png)
