@@ -69,3 +69,18 @@ Durante o processo eu aprofundei os conhecimentos sobre ros2
 
 Aprendendo como funciona as simulações e SLAM
 ![Brincando um pouco com Ros2 e SLAM](/assets/ros2_slam.png)
+
+Sobre RL dei uma olhada na documentação recomendada, assisti ao vídeo e busquei entender melhor ao código.
+
+Para rodar o programa do FrozenLake é necessário instalar as bibliotecas gymnasium[all] numpy matplotlib pygame
+
+E para rodare é simples só digitar o comando no terminal, no diretório em que o arquivo está salvo
+
+Aqui eu estou utilizando o python3
+
+```bash
+python3 frozen_lake.py
+```
+
+Esse é o resultado do jogo rodando
+![imagem rodando](/assets/rl.py)
