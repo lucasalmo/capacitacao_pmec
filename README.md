@@ -89,3 +89,5 @@ Esse é o resultado do jogo rodandoi
 # Semana 3 - Modelagem e impressão 3D
 
 Assisti ao vídeo disponibilizado, criei uma conta com email institucional na plataforma do autodesk, baixei o Fusion no computado 
+
+[Figura da Tela do Fusion](/assets/fusion.jpg)
