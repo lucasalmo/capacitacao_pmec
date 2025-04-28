@@ -67,4 +67,4 @@ Feito isso vamos entrar no container já com as devidas configurações para usa
 
 Durante o processo eu aprofundei os conhecimentos sobre ros2 
 
-[Brincando um pouco com Ros2 e SLAM](/assets/ros2_slam.png)
+![Brincando um pouco com Ros2 e SLAM](/assets/ros2_slam.png)
