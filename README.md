@@ -91,3 +91,29 @@ Esse é o resultado do jogo rodandoi
 Assisti ao vídeo disponibilizado, criei uma conta com email institucional na plataforma do autodesk, baixei o Fusion no computado 
 
 ![Figura da Tela do Fusion](/assets/fusion.jpg)
+
+Fiz as modelagens propostas seguindo o vídeo
+
+Exemplo 1
+
+![Figura da primeira modelagem](/assets/peca_exemplo1.png)
+
+Exercício Proposto
+
+Construindo a modelagem base
+
+![Figura do modelo base](processo_construcao_1.png)
+
+Aqui temos o modelo proposto finalizado
+
+![Figura do exercício proposto](/assets/ex_proposto1.png)
+
+Explorando o UltiMaker Cura
+
+Instalando o programa
+
+![Baixando o programa](/assets/ultimaker.png)
+
+Também coloquei a peça que fiz de exemplo seguindo o vídeo no programa para ver como se comportava, achei interessante
+
+![Visualização do modelo no programa](/assets/explorando_ultimaker.png)
