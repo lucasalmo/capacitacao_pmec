@@ -138,3 +138,23 @@ Fazendo o mapeamento
 Navegação autônoma
 
 ![Navegação](/assets/navegacao.png)
+
+## Deep Learning
+
+Eu rodei os notebook disponibilizado pelo grupo [go.ias](https://beacons.ai/go.ias) foi necessário fazer algumas alterações como:
+
+![Alteração](/assets/alteracao.png)
+
+Eu tive que alterar o path para 
+
+```bash
+path_src = '/content/drive/My Drive/hands_on/initial_dataset/'
+```
+
+Desta forma eu consegui rodar o código seguinte
+
+![Treino](/assets/treino.png)
+
+Eu não consegui finalizar o processo pois tive problema de utilização de RAM ao chegar no passo abaixo ouve um aviso que tinha utilizado toda a RAM disponível
+
+![Problema de RAM](/assets/problema_ram.png)
