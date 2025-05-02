@@ -141,7 +141,7 @@ Navegação autônoma
 
 ## Deep Learning
 
-Eu rodei os notebook disponibilizado pelo grupo [go.ias](https://beacons.ai/go.ias) foi necessário fazer algumas alterações como:
+Eu rodei os notebook disponibilizado pelo grupo <a href="https://beacons.ai/go.ias" target="_blank">go.ias</a>(https://beacons.ai/go.ias) foi necessário fazer algumas alterações como:
 
 ![Alteração](/assets/alteracao.png)
 
