@@ -102,7 +102,7 @@ Exercício Proposto
 
 Construindo a modelagem base
 
-![Figura do modelo base](processo_construcao_1.png)
+![Figura do modelo base](construcao_1.png)
 
 Aqui temos o modelo proposto finalizado
 
