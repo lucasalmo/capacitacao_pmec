@@ -157,4 +157,4 @@ Desta forma eu consegui rodar o código seguinte
 
 Eu não consegui finalizar o processo pois tive problema de utilização de RAM ao chegar no passo abaixo ouve um aviso que tinha utilizado toda a RAM disponível
 
-![Problema de RAM](/assets/problema_ram.png)
+![Problema de RAM](/assets/problema.png)
