@@ -117,3 +117,24 @@ Instalando o programa
 Também coloquei a peça que fiz de exemplo seguindo o vídeo no programa para ver como se comportava, achei interessante
 
 ![Visualização do modelo no programa](/assets/explorando_ultimaker.png)
+
+# Semana 4 - Machine Learning e Manipuladores
+
+Fiz o clone do repositório INF0429 fiz o checkout na branch feat/manipulator e fui seguindo o [tutorial](https://github.com/pmec-atwork/INF0429/blob/feat/manipulator/tutorials/06-Manipulation/README.md) de navegação autônoma
+
+Controlando o braço robótico
+
+![Braço robótico](/assets/braco_robotico.png)
+
+Visão do braço
+
+![Braço](/assets/braco)
+
+Fazendo o mapeamento
+
+![Mapeamento](/assets/mapa_braco.png)
+
+
+Navegação autônoma
+
+![Navegação](/assets/navegacao.png)
