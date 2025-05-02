@@ -128,7 +128,7 @@ Controlando o braço robótico
 
 Visão do braço
 
-![Braço](/assets/braco)
+![Braço](/assets/braco.png)
 
 Fazendo o mapeamento
 
